@@ -1,1 +1,1 @@
-Exercicios e aulas baseados no Curso do canal de Youtbe Aprenda Go
+Exercicios e aulas baseados no Curso do canal de Youtube Aprenda Go
