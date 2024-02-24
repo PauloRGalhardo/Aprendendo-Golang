@@ -1,0 +1,33 @@
+https://go.dev/play/p/jiJItLFGYpn
+
+package main
+
+import "fmt"
+
+var a int
+
+func main() {
+	a = 10
+	b := a == 10
+	c := a != 10
+	d := a <= 10
+	e := a < 10
+	f := a >= 10
+	g := a > 10
+
+	fmt.Println(b)
+	fmt.Println(c)
+	fmt.Println(d)
+	fmt.Println(e)
+	fmt.Println(f)
+	fmt.Println(g)
+}
+
+// Escreva expressões utilizando os seguintes operadores, e atribua seus valores a variáveis.
+// ==
+// !=
+// <=
+// <
+// >=
+// >
+// Demonstre estes valores.

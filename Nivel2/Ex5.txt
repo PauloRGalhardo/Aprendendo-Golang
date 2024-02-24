@@ -1,0 +1,16 @@
+https://go.dev/play/p/qQiyeniFlgI
+
+package main
+
+import "fmt"
+
+func main() {
+	a := `não vai
+	
+	chover`
+
+	fmt.Println(a)
+}
+
+// Crie uma variável de tipo string utilizando uma raw string literal.
+// Demonstre-a.

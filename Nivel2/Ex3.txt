@@ -1,0 +1,17 @@
+https://go.dev/play/p/eyFd7KKPyeM
+
+package main
+
+import "fmt"
+
+const y float64 = 20
+const x = 10
+
+func main() {
+
+	fmt.Printf("%v\n %T\n", y, y)
+	fmt.Printf("%v\n %T", x, x)
+}
+
+// Crie constantes tipadas e não-tipadas.
+// Demonstre seus valores.
