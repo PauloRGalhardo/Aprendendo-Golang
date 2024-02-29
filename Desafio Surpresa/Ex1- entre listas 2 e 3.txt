@@ -1,4 +1,4 @@
-https://go.dev/play/p/weZ0bzuW29s
+https://go.dev/play/p/5rDIY8EoMx6
 
 package main
 
@@ -9,7 +9,7 @@ func main() {
 	x := 32
 	for x < 122 {
 		x++
-		fmt.Printf("%d, %x, %#U\t \n", x, x, x)
+		fmt.Printf("%d, %x, %U\t \n", x, x, x)
 
 	}
 
@@ -23,4 +23,3 @@ func main() {
 //     - Tab           \t
 //     - Linha nova    \n
 // - Faça um loop dos números 33 a 122, e utilize format printing para demonstrá-los como texto/string.
-
