@@ -1,0 +1,21 @@
+https://go.dev/play/p/OxUMAvs076i
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	folga := "domingo"
+	switch folga {
+	case "segunda":
+		fmt.Println("Ninguém!")
+	case "domingo":
+		fmt.Println("Todos!")
+
+	}
+}
+
+// - Crie um programa que utilize a declaração switch, sem switch statement especificado.

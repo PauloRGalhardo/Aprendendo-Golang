@@ -1,0 +1,15 @@
+https://go.dev/play/p/X8dX3lc70Dt
+
+package main
+
+import "fmt"
+
+func main() {
+
+	for z := 10; z <= 100; z++ {
+		fmt.Println(z % 4)
+	}
+
+}
+
+// - Demonstre o resto da divisão por 4 de todos os números entre 10 e 100

@@ -1,0 +1,18 @@
+https://go.dev/play/p/G8o_O_Lgs2R
+
+package main
+
+import "fmt"
+
+func main() {
+	for inicio := 0; inicio <= 90; inicio++ {
+		fmt.Println(inicio)
+		if inicio == 45 {
+			fmt.Println("Intervalo")
+			continue
+		}
+
+	}
+}
+
+// - Crie um programa que demonstre o funcionamento da declaração if.

@@ -1,0 +1,23 @@
+https://go.dev/play/p/brgTq1nK9fq
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	tempo := 0
+	if tempo == 0 {
+		fmt.Println("Inicio")
+	} else if tempo == 45 {
+		fmt.Println("Intervalo")
+	} else if tempo >= 90 {
+		fmt.Println("Fim de Jogo")
+	} else {
+		fmt.Println("em jogo")
+
+	}
+}
+
+// - Utilizando a solução anterior, adicione as opções else if e else

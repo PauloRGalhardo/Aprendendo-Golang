@@ -1,0 +1,19 @@
+https://go.dev/play/p/oBtH4Lh9wDG
+
+package main
+
+import "fmt"
+
+func main() {
+	nascimento := 1990
+	atual := 2024
+
+	for nascimento <= atual {
+		fmt.Println(nascimento)
+		nascimento++
+	}
+
+}
+
+// - Crie um loop utilizando a sintaxe: for condition {}
+// - Utilize-o para demonstrar os anos desde que você nasceu.

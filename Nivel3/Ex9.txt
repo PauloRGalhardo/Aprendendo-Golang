@@ -1,0 +1,23 @@
+https://go.dev/play/p/yDdMijqMKtw
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	esporteFavorito := "Soccer"
+	switch esporteFavorito {
+	case "Futebol":
+		fmt.Println("é brasileiro")
+	case "Baseball":
+		fmt.Println("é japônes")
+	case "Soccer":
+		fmt.Println("não entende de futebol")
+	}
+
+}
+
+// - Crie um programa que utilize a declaração switch, onde o switch statement seja uma variável do tipo string com identificador "esporteFavorito".
